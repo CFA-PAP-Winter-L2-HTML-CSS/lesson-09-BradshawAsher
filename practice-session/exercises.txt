@@ -1,0 +1,32 @@
+Make Across the World Cruises responsive
+Create styles for mobile, tablet, and desktop screens
+using a mobile first approach.
+
+Exercise 1
+1. In index.html, add a meta tag to stop browser scaling
+2. * In style.css, change the width of main to 100%
+
+Exercise 2
+1. Open index.html and launch with Live Server
+Open in the code inspector and turn on the device toolbar
+Change the width of screen
+Note the screen width when the divs rearrange from 3 columns into 2, 
+and from 2 columns into 1
+These will be your breakpoints
+
+Exercise 3
+1. Create 2 media queries for the tablet and desktop breakpoints
+2. Examine the screenshots to see the styles for:
+mobile
+tablet
+desktop
+The shape of the divs and the page background image are different
+3. Write the styles for mobile first. 
+Make the page title smaller
+Make the divs into a square shape, and add the border
+Keep an eye on the background-size property and make sure the background images fill the rectangular divs
+
+4. Write the styles for tablet and desktop in the media queries
+Make the divs display as circles
+If borders were added in mobile and tablet, remove them for dektop, etc.
+Hint: For desktop, remember to resize main to 1120px to keep the divs at 3 per row maximum.

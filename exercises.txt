@@ -1,0 +1,55 @@
+Garlic Growing
+
+Look through the pictures in the images folder to see all the stages of the garlic plant.
+
+Preparation
+In index.html:
+1. In between the body tags, add a main tag.
+2. In style.css, select main
+Set margin to 40px auto
+Set width to 25px
+Set height to 445px
+Set background-image to clove-seed.png
+Use other background properties to stop the image repeating, 
+position it at the bottom center, and set size to contain
+
+
+Exercise 1
+1. In index.html, in the head setion
+Add a meta tag to set the viewport at device width and initial-scale 1.0
+
+Exercise 2
+1. In style.css add a media query for screen sizes wider than 1200px
+2. Inside the media query, select main
+Set width to 250px
+Set height to 570px
+Set background-image to garlic-flower.png
+3. Follow the instructions on the slides to use the code inspector
+device tooldbar to test your media query
+
+Exercsie 3
+1. Add a media query for screen sizes wider than 600px
+and smaller than 800px
+2. Inside the media query, select main
+Set width to 80px
+Set height to 450px
+Set background-image to seedling.png
+
+3. Add a media query for screen sizes wider than 800px
+and smaller than 1000px
+4. Inside the media query, select main
+Set width to 100px
+Set height to 460px
+Set background-image to young-plant.png 
+
+5. Add a media query for screen sizes wider than 1000px
+and smaller than 1200px
+6. Inside the media query, select main
+Set width to 190px
+Set height to 550px
+Set background-image to garlic-bud.png 
+
+
+Exercise 4
+1. In style.css, find the initial styles for main
+Set transition to all .5s linear
